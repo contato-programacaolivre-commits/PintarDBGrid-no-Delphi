@@ -1,4 +1,4 @@
-🌐 **Language / Idioma:** [English](https://github.com) | [Português (Brasil)](https://github.com)
+🌐 **Language / Idioma:** [English](README.md) | [Português (Brasil)](README.pt-BR.md)
 
 # Customizing TDBGrid in Delphi — 5 Ready-to-Use Blocks (`OnDrawColumnCell`)
 
