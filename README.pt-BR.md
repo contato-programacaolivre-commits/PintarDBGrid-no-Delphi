@@ -4,7 +4,7 @@
 
 Projeto prático em VCL demonstrando como personalizar cores de linhas, efeito zebrado, barra de seleção ativa e destaque condicional por status no `TDBGrid` do Delphi sem piscar a tela (*flicker*) e sem quebrar o alinhamento padrão dos textos.
 
-📖 **Artigo Completo no Blog:** [Como Pintar DBGrid Delphi: 5 Blocos Prontos (OnDrawColumnCell)](https://programacaolivre.com.br) *(atualizar com o slug completo do Artigo #1)*
+📖 **Artigo Completo no Blog:** [Como Pintar DBGrid Delphi: 5 Blocos Prontos (OnDrawColumnCell)](https://programacaolivre.com.br/como-pintar-dbgrid-delphi-ondrawcolumncell/)
 
 ---
 
