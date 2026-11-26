@@ -1,4 +1,4 @@
-🌐 **Idioma / Language:** [Português (Brasil)](https://github.com) | [English](https://github.com)
+🌐 **Idioma / Language:** [Português (Brasil)](README.pt-BR.md) | [English](README.md)
 
 # Como Pintar DBGrid no Delphi — 5 Blocos Prontos (`OnDrawColumnCell`)
 
