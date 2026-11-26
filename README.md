@@ -4,7 +4,7 @@
 
 Practical VCL demonstration project showing how to customize row colors, alternating zebra stripes, active selection bars, and conditional status styling in Delphi's `TDBGrid` without flickering or breaking default text alignment.
 
-📖 **Full Technical Guide (Portuguese):** [Como Pintar DBGrid Delphi: 5 Blocos Prontos (OnDrawColumnCell)](https://programacaolivre.com.br) 
+📖 **Full Technical Guide (Portuguese):** [Como Pintar DBGrid Delphi: 5 Blocos Prontos (OnDrawColumnCell)](https://programacaolivre.com.br/como-pintar-dbgrid-delphi-ondrawcolumncell/) 
 
 ---
 
