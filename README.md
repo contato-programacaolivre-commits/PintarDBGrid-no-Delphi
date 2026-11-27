@@ -1,33 +1,33 @@
-🌐 **Language / Idioma:** [English](README.md) | [Português (Brasil)](README.pt-BR.md)
+🌐 **Idioma / Language:** [Português (Brasil)](README.md) | [English](README.en.md)
 
-# Customizing TDBGrid in Delphi — 5 Ready-to-Use Blocks (`OnDrawColumnCell`)
+# Como Pintar DBGrid no Delphi — 5 Blocos Prontos (`OnDrawColumnCell`)
 
-Practical VCL demonstration project showing how to customize row colors, alternating zebra stripes, active selection bars, and conditional status styling in Delphi's `TDBGrid` without flickering or breaking default text alignment.
+Projeto prático em VCL demonstrando como personalizar cores de linhas, efeito zebrado, barra de seleção ativa e destaque condicional por status no `TDBGrid` do Delphi sem piscar a tela (*flicker*) e sem quebrar o alinhamento padrão dos textos.
 
-📖 **Full Technical Guide (Portuguese):** [Como Pintar DBGrid Delphi: 5 Blocos Prontos (OnDrawColumnCell)](https://programacaolivre.com.br/como-pintar-dbgrid-delphi-ondrawcolumncell/) 
-
----
-
-## 🎯 What This Project Covers
-
-1. **Zebra Striping (Alternating Row Colors):** Clean alternating background colors using `DataSource.DataSet.RecNo` without hurting readability.
-2. **Conditional Row Highlighting:** Painting entire rows based on field values (e.g., overdue invoices, inactive records, or low stock alerts).
-3. **Single Cell / Status Column Styling:** Highlighting specific columns (such as a `STATUS` badge) while keeping the rest of the row clean.
-4. **Custom Selected Row (`gdSelected`):** Overriding Delphi's default dark-blue selection highlight so conditional colors remain legible when the user clicks a row.
-5. **Safe Default Rendering (`DefaultDrawColumnCell`):** Proper usage of `Canvas.Brush.Color`, `Canvas.Font.Color`, and `DefaultDrawColumnCell` to prevent visual artifacts.
-
-## 🛠️ How to Run
-
-1. Clone or download this repository.
-2. Open the `.dproj` file in **Delphi 10 Seattle** or **RAD Studio 11+ / Delphi Community Edition**.
-3. Press **`F9`** to compile and run (uses in-memory `TClientDataSet` / `TFDMemTable` — no external database server required).
-
-## ✅ Compatibility & Code Standards
-
-- Tested on **Delphi 10 Seattle** and **RAD Studio 11+ / Delphi Community Edition** (32-bit and 64-bit Windows targets).
-- Zero compiler hints or warnings (`W1035` clean).
-- Strictly compatible with classic Object Pascal syntax (no inline variables, explicit `:= nil` / `FreeAndNil` memory management).
+📖 **Artigo Completo no Blog:** [Como Pintar DBGrid Delphi: 5 Blocos Prontos (OnDrawColumnCell)](https://programacaolivre.com.br/como-pintar-dbgrid-delphi-ondrawcolumncell/)
 
 ---
 
-*Maintained by **Programação Livre** — Practical Software Engineering & Clean Code.*
+## 🎯 O Que Este Projeto Demonstra
+
+1. **Efeito Zebrado (Linhas Alternadas):** Alternância limpa de cores de fundo utilizando `DataSource.DataSet.RecNo` para facilitar a leitura de tabelas extensas.
+2. **Destaque Condicional da Linha Inteira:** Pintura dinâmica da linha completa com base no valor de um campo (ex: contas vencidas, cadastros inativos ou estoque crítico).
+3. **Pintura de Célula Específica (Coluna de Status):** Destaque visual apenas na coluna desejada (como `STATUS`) mantendo o restante da linha neutro.
+4. **Personalização da Linha Selecionada (`gdSelected`):** Controle da cor de seleção padrão do Windows para que o texto continue legível mesmo com a linha selecionada.
+5. **Renderização Segura (`DefaultDrawColumnCell`):** Uso correto de `Canvas.Brush.Color`, `Canvas.Font.Color` e `DefaultDrawColumnCell` para evitar falhas visuais ao rolar o grid.
+
+## 🛠️ Como Executar na Sua Máquina
+
+1. Clone ou baixe este repositório.
+2. Abra o arquivo `.dproj` no **Delphi 10 Seattle** ou **RAD Studio 11+ / Delphi Community Edition**.
+3. Pressione **`F9`** para compilar e executar (utiliza dataset em memória — não exige instalação de banco de dados externo).
+
+## ✅ Compatibilidade & Padrão de Código
+
+- Validado no **Delphi 10 Seattle** e **RAD Studio 11+ / Delphi Community Edition** (alvos Windows 32-bit e 64-bit).
+- Compilação limpa, sem *hints* ou *warnings* (`W1035`).
+- 100% retrocompatível (sem variáveis inline e seguindo rigorosamente o padrão limpo do projeto).
+
+---
+
+*Mantido por **Programação Livre** — Engenharia de Software Prática e Código Limpo.*
